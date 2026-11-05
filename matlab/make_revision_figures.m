@@ -206,7 +206,7 @@ cb = colorbar(ax); cb.Label.String = 'Rate / ARI'; cb.FontSize = S.tick;
 for i = 1:size(Mx, 1)
     for j = 1:size(Mx, 2)
         text(ax, j, i, sprintf('%.2f', Mx(i, j)), 'HorizontalAlignment', 'center', ...
-             'Color', [1 1 1] * (Mx(i, j) < 0.5), 'FontSize', S.annot - 4, 'FontWeight', 'bold');
+             'Color', [1 1 1] * (Mx(i, j) >= 0.5), 'FontSize', S.annot - 4, 'FontWeight', 'bold');
     end
 end
 set(ax, 'XTick', 1:6, 'XTickLabel', {'Global Shift', 'Imbalance', 'Survival', 'Dominance', 'All Four', 'ARI Truth'}, ...
@@ -314,7 +314,8 @@ Cc = rd('FR6d_clinical_effects.csv');
 Cc = Cc(Cc.type ~= "categorical", :);
 est = Cc.estimate; lo = Cc.ci_low; hi = Cc.ci_high;
 isb = Cc.type == "binary"; est(isb) = log(est(isb)); lo(isb) = log(lo(isb)); hi(isb) = log(hi(isb));
-[f, ax] = hivAxes(S, 'd', 'Clinical Differences (Higher - Lower Group)', 'Hedges g  |  log Odds Ratio', '');
+[f, ax] = hivAxes(S, 'd', 'Clinical Differences (Higher - Lower Group)', '', '');
+xlabel(ax, 'Hedges g  |  Log Odds Ratio', 'FontName', S.font, 'FontWeight', S.weight);
 f.Position(3:4) = [28 28];
 xline(ax, 0, '--', 'Color', S.grey, 'LineWidth', 2);
 k = height(Cc);
@@ -326,7 +327,8 @@ for i = 1:k
     plot(ax, est(i), i, 's', 'MarkerFaceColor', col, 'MarkerEdgeColor', 'k', 'MarkerSize', S.ms);
     text(ax, max(hi) + 0.15, i, sprintf('q = %.2f', Cc.q_BH_all_clinical(i)), 'FontSize', S.annot - 6);
 end
-set(ax, 'YTick', 1:k, 'YTickLabel', Cc.variable + " (" + string(Cc.n_high) + "/" + string(Cc.n_low) + ")", ...
+set(ax, 'TickLabelInterpreter', 'none');
+set(ax, 'YTick', 1:k, 'YTickLabel', clinLabel(Cc.variable) + " (" + string(Cc.n_high) + "/" + string(Cc.n_low) + ")", ...
     'YDir', 'reverse', 'YLim', [0.4 k + 0.6], 'FontSize', S.tick - 4);
 hivExport(f, 'Fig7_d_clinical_forest', O, S); close(f);
 % (E) heat map, top 40 proteins of the corrected partition
@@ -445,6 +447,21 @@ text(ax, x + ww / 2, y + hh * 0.66, t1, 'HorizontalAlignment', 'center', 'FontSi
      'FontWeight', 'bold', 'FontName', S.font);
 text(ax, x + ww / 2, y + hh * 0.27, t2, 'HorizontalAlignment', 'center', 'FontSize', S.legend - 7, ...
      'FontWeight', 'bold', 'FontName', S.font);
+end
+
+function out = clinLabel(v)
+%CLINLABEL  Readable names for the clinical variables of Figure 7D.
+m = containers.Map( ...
+    {'AGE','BMI','VAT','SAT','Tgl','Hdl','Ldl','CD4','CD4_nadir','CD8','CDA_CD8','eGFR','EGFR','alat', ...
+     'Duration','log10VL_ART','METS','central_obesity','hypertension','diabetes','smoker'}, ...
+    {'Age','BMI','Visceral Fat Area','Subcutaneous Fat Area','Triglycerides','HDL Cholesterol', ...
+     'LDL Cholesterol','CD4 Count','CD4 Nadir','CD8 Count','CD4/CD8 Ratio','eGFR','eGFR','ALT', ...
+     'HIV Duration','log10 Viral Load at ART','Metabolic Syndrome','Central Obesity','Hypertension', ...
+     'Diabetes','Smoker'});
+v = string(v); out = v;
+for i = 1:numel(v)
+    if isKey(m, char(v(i))), out(i) = string(m(char(v(i)))); end
+end
 end
 
 function c = redblue_local(n)
