@@ -1,11 +1,15 @@
 # Proteomic Intensity Artifacts in HIV Multi-Omics Integration
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23975772.svg)](https://doi.org/10.5281/zenodo.23975772)
+
 Code, analysis-ready matrices, and per-panel figure source data for the manuscript
 
 > **Proteomic Intensity Artifacts in HIV Multi-Omics Integration: Deep Learning Benchmarking and Corrected Metabolic-Risk Endotyping**
 > K. M. Elamin, S. M. I. Elbashir, I. Adam. *Proteomes* (MDPI), revised version, 2026.
 
 ## Release v2.0 (revision)
+
+Archived on Zenodo: https://doi.org/10.5281/zenodo.23975772
 
 All results of the revised manuscript are produced by `scripts/revision/`. One command regenerates every number, table, and figure source file from the public inputs:
 
