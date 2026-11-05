@@ -1,0 +1,261 @@
+method,repeat,auc_pooled
+PCA (concatenated),0,0.7866531850353893
+"PCA (concatenated), shift-adjusted proteomics",0,0.8291203235591507
+Per-layer SVD,0,0.7967644084934277
+PCA (transcriptomics only),0,0.8377148634984833
+PCA (proteomics only),0,0.7507583417593529
+PCA (metabolomics only),0,0.6976744186046512
+"PCA (proteomics only), shift-adjusted",0,0.762891809908999
+PCA (transcriptomics + metabolomics),0,0.846309403437816
+Elastic net (early concatenation),0,0.9287158746208292
+Clinical covariates only,0,0.48078867542972703
+Clinical + PCA (shift-adjusted),0,0.8397371081900911
+"PoE-VAE (unanchored, tuned)",0,0.7082912032355915
+"PoE-VAE (SNF-anchored, lambda = 1)",0,0.6855409504550051
+PCA (concatenated),1,0.8382204246713851
+"PCA (concatenated), shift-adjusted proteomics",1,0.8361981799797775
+Per-layer SVD,1,0.8321536905965621
+PCA (transcriptomics only),1,0.8458038422649141
+PCA (proteomics only),1,0.7280080889787665
+PCA (metabolomics only),1,0.7007077856420627
+"PCA (proteomics only), shift-adjusted",1,0.7770475227502527
+PCA (transcriptomics + metabolomics),1,0.8958543983822043
+Elastic net (early concatenation),1,0.9069767441860466
+Clinical covariates only,1,0.5551061678463094
+Clinical + PCA (shift-adjusted),1,0.8584428715874621
+"PoE-VAE (unanchored, tuned)",1,0.8038422649140545
+"PoE-VAE (SNF-anchored, lambda = 1)",1,0.8043478260869565
+PCA (concatenated),2,0.8468149646107179
+"PCA (concatenated), shift-adjusted proteomics",2,0.8432760364004044
+Per-layer SVD,2,0.8230535894843276
+PCA (transcriptomics only),2,0.8361981799797776
+PCA (proteomics only),2,0.7386248736097067
+PCA (metabolomics only),2,0.6911021233569262
+"PCA (proteomics only), shift-adjusted",2,0.7821031344792719
+PCA (transcriptomics + metabolomics),2,0.8599595551061678
+Elastic net (early concatenation),2,0.9120323559150657
+Clinical covariates only,2,0.5176946410515673
+Clinical + PCA (shift-adjusted),2,0.8356926188068756
+"PoE-VAE (unanchored, tuned)",2,0.7618806875631952
+"PoE-VAE (SNF-anchored, lambda = 1)",2,0.7426693629929221
+PCA (concatenated),3,0.8437815975733064
+"PCA (concatenated), shift-adjusted proteomics",3,0.846309403437816
+Per-layer SVD,3,0.8276036400404448
+PCA (transcriptomics only),3,0.8367037411526794
+PCA (proteomics only),3,0.7345803842264915
+PCA (metabolomics only),3,0.6547017189079879
+"PCA (proteomics only), shift-adjusted",3,0.7775530839231547
+PCA (transcriptomics + metabolomics),3,0.8766430738119313
+Elastic net (early concatenation),3,0.9241658240647118
+Clinical covariates only,3,0.49999999999999994
+Clinical + PCA (shift-adjusted),3,0.8447927199191103
+"PoE-VAE (unanchored, tuned)",3,0.801314459049545
+"PoE-VAE (SNF-anchored, lambda = 1)",3,0.7426693629929222
+PCA (concatenated),4,0.8422649140546006
+"PCA (concatenated), shift-adjusted proteomics",4,0.8685540950455005
+Per-layer SVD,4,0.8513650151668352
+PCA (transcriptomics only),4,0.8367037411526794
+PCA (proteomics only),4,0.8154701718907988
+PCA (metabolomics only),4,0.7037411526794742
+"PCA (proteomics only), shift-adjusted",4,0.839231547017189
+PCA (transcriptomics + metabolomics),4,0.8938321536905967
+Elastic net (early concatenation),4,0.9186046511627907
+Clinical covariates only,4,0.5783619817997977
+Clinical + PCA (shift-adjusted),4,0.865520728008089
+"PoE-VAE (unanchored, tuned)",4,0.7512639029322549
+"PoE-VAE (SNF-anchored, lambda = 1)",4,0.7391304347826088
+PCA (concatenated),5,0.8604651162790699
+"PCA (concatenated), shift-adjusted proteomics",5,0.8518705763397372
+Per-layer SVD,5,0.8038422649140546
+PCA (transcriptomics only),5,0.8442871587462083
+PCA (proteomics only),5,0.7391304347826088
+PCA (metabolomics only),5,0.6825075834175935
+"PCA (proteomics only), shift-adjusted",5,0.8124368048533872
+PCA (transcriptomics + metabolomics),5,0.8923154701718907
+Elastic net (early concatenation),5,0.9059656218402427
+Clinical covariates only,5,0.5353892821031345
+Clinical + PCA (shift-adjusted),5,0.839737108190091
+"PoE-VAE (unanchored, tuned)",5,0.7259858442871588
+"PoE-VAE (SNF-anchored, lambda = 1)",5,0.7209302325581395
+PCA (concatenated),6,0.8377148634984833
+"PCA (concatenated), shift-adjusted proteomics",6,0.8387259858442871
+Per-layer SVD,6,0.8174924165824065
+PCA (transcriptomics only),6,0.8109201213346815
+PCA (proteomics only),6,0.7482305358948433
+PCA (metabolomics only),6,0.7264914054600606
+"PCA (proteomics only), shift-adjusted",6,0.7962588473205258
+PCA (transcriptomics + metabolomics),6,0.8776541961577351
+Elastic net (early concatenation),6,0.8827098078867543
+Clinical covariates only,6,0.5596562184024266
+Clinical + PCA (shift-adjusted),6,0.8255813953488372
+"PoE-VAE (unanchored, tuned)",6,0.6921132457027299
+"PoE-VAE (SNF-anchored, lambda = 1)",6,0.7987866531850354
+PCA (concatenated),7,0.8104145601617796
+"PCA (concatenated), shift-adjusted proteomics",7,0.8235591506572295
+Per-layer SVD,7,0.7618806875631952
+PCA (transcriptomics only),7,0.7906976744186046
+PCA (proteomics only),7,0.7527805864509605
+PCA (metabolomics only),7,0.6961577350859454
+"PCA (proteomics only), shift-adjusted",7,0.7325581395348837
+PCA (transcriptomics + metabolomics),7,0.8574317492416582
+Elastic net (early concatenation),7,0.8837209302325582
+Clinical covariates only,7,0.5293225480283115
+Clinical + PCA (shift-adjusted),7,0.8240647118301314
+"PoE-VAE (unanchored, tuned)",7,0.7709807886754297
+"PoE-VAE (SNF-anchored, lambda = 1)",7,0.7679474216380182
+PCA (concatenated),8,0.8549039433771486
+"PCA (concatenated), shift-adjusted proteomics",8,0.8771486349848332
+Per-layer SVD,8,0.8473205257836198
+PCA (transcriptomics only),8,0.8483316481294236
+PCA (proteomics only),8,0.8119312436804853
+PCA (metabolomics only),8,0.7224469160768453
+"PCA (proteomics only), shift-adjusted",8,0.826592517694641
+PCA (transcriptomics + metabolomics),8,0.9155712841253792
+Elastic net (early concatenation),8,0.922649140546006
+Clinical covariates only,8,0.5581395348837209
+Clinical + PCA (shift-adjusted),8,0.8700707785642062
+"PoE-VAE (unanchored, tuned)",8,0.8053589484327603
+"PoE-VAE (SNF-anchored, lambda = 1)",8,0.8104145601617796
+PCA (concatenated),9,0.8538928210313448
+"PCA (concatenated), shift-adjusted proteomics",9,0.8660262891809909
+Per-layer SVD,9,0.8174924165824065
+PCA (transcriptomics only),9,0.8372093023255814
+PCA (proteomics only),9,0.8048533872598584
+PCA (metabolomics only),9,0.704752275025278
+"PCA (proteomics only), shift-adjusted",9,0.8023255813953488
+PCA (transcriptomics + metabolomics),9,0.8533872598584429
+Elastic net (early concatenation),9,0.8816986855409504
+Clinical covariates only,9,0.5045500505561173
+Clinical + PCA (shift-adjusted),9,0.8725985844287159
+"PoE-VAE (unanchored, tuned)",9,0.8018200202224469
+"PoE-VAE (SNF-anchored, lambda = 1)",9,0.7674418604651162
+PCA (concatenated),10,0.8281092012133469
+"PCA (concatenated), shift-adjusted proteomics",10,0.8063700707785643
+Per-layer SVD,10,0.7735085945399394
+PCA (transcriptomics only),10,0.801314459049545
+PCA (proteomics only),10,0.7790697674418605
+PCA (metabolomics only),10,0.6693629929221435
+"PCA (proteomics only), shift-adjusted",10,0.801314459049545
+PCA (transcriptomics + metabolomics),10,0.852881698685541
+Elastic net (early concatenation),10,0.9191102123356926
+Clinical covariates only,10,0.4919110212335693
+Clinical + PCA (shift-adjusted),10,0.8119312436804853
+"PoE-VAE (unanchored, tuned)",10,0.6491405460060669
+"PoE-VAE (SNF-anchored, lambda = 1)",10,0.7002022244691608
+PCA (concatenated),11,0.8554095045500506
+"PCA (concatenated), shift-adjusted proteomics",11,0.8185035389282104
+Per-layer SVD,11,0.7912032355915065
+PCA (transcriptomics only),11,0.839231547017189
+PCA (proteomics only),11,0.7669362992922143
+PCA (metabolomics only),11,0.6764408493427705
+"PCA (proteomics only), shift-adjusted",11,0.8377148634984833
+PCA (transcriptomics + metabolomics),11,0.8452982810920121
+Elastic net (early concatenation),11,0.8832153690596563
+Clinical covariates only,11,0.5697674418604651
+Clinical + PCA (shift-adjusted),11,0.8437815975733063
+"PoE-VAE (unanchored, tuned)",11,0.7426693629929222
+"PoE-VAE (SNF-anchored, lambda = 1)",11,0.7765419615773509
+PCA (concatenated),12,0.8351870576339737
+"PCA (concatenated), shift-adjusted proteomics",12,0.8099089989888777
+Per-layer SVD,12,0.7977755308392315
+PCA (transcriptomics only),12,0.8690596562184023
+PCA (proteomics only),12,0.7649140546006067
+PCA (metabolomics only),12,0.6592517694641051
+"PCA (proteomics only), shift-adjusted",12,0.7861476238624874
+PCA (transcriptomics + metabolomics),12,0.890798786653185
+Elastic net (early concatenation),12,0.9130434782608696
+Clinical covariates only,12,0.5520728008088979
+Clinical + PCA (shift-adjusted),12,0.8114256825075834
+"PoE-VAE (unanchored, tuned)",12,0.7482305358948432
+"PoE-VAE (SNF-anchored, lambda = 1)",12,0.762891809908999
+PCA (concatenated),13,0.8058645096056622
+"PCA (concatenated), shift-adjusted proteomics",13,0.8422649140546006
+Per-layer SVD,13,0.8291203235591506
+PCA (transcriptomics only),13,0.8245702730030333
+PCA (proteomics only),13,0.7345803842264913
+PCA (metabolomics only),13,0.6865520728008088
+"PCA (proteomics only), shift-adjusted",13,0.7800808897876643
+PCA (transcriptomics + metabolomics),13,0.8579373104145601
+Elastic net (early concatenation),13,0.8918099089989889
+Clinical covariates only,13,0.5166835187057635
+Clinical + PCA (shift-adjusted),13,0.8447927199191102
+"PoE-VAE (unanchored, tuned)",13,0.7937310414560161
+"PoE-VAE (SNF-anchored, lambda = 1)",13,0.7841253791708798
+PCA (concatenated),14,0.8564206268958544
+"PCA (concatenated), shift-adjusted proteomics",14,0.8604651162790699
+Per-layer SVD,14,0.8367037411526795
+PCA (transcriptomics only),14,0.7765419615773509
+PCA (proteomics only),14,0.7876643073811931
+PCA (metabolomics only),14,0.6739130434782609
+"PCA (proteomics only), shift-adjusted",14,0.8447927199191103
+PCA (transcriptomics + metabolomics),14,0.8736097067745198
+Elastic net (early concatenation),14,0.9079878665318504
+Clinical covariates only,14,0.5722952477249748
+Clinical + PCA (shift-adjusted),14,0.7932254802831142
+"PoE-VAE (unanchored, tuned)",14,0.6759352881698686
+"PoE-VAE (SNF-anchored, lambda = 1)",14,0.7644084934277047
+PCA (concatenated),15,0.7906976744186046
+"PCA (concatenated), shift-adjusted proteomics",15,0.8023255813953488
+Per-layer SVD,15,0.7922143579373104
+PCA (transcriptomics only),15,0.8296258847320526
+PCA (proteomics only),15,0.7613751263902933
+PCA (metabolomics only),15,0.6835187057633973
+"PCA (proteomics only), shift-adjusted",15,0.7558139534883721
+PCA (transcriptomics + metabolomics),15,0.865520728008089
+Elastic net (early concatenation),15,0.9216380182002022
+Clinical covariates only,15,0.43983822042467136
+Clinical + PCA (shift-adjusted),15,0.7740141557128412
+"PoE-VAE (unanchored, tuned)",15,0.7411526794742164
+"PoE-VAE (SNF-anchored, lambda = 1)",15,0.6754297269969666
+PCA (concatenated),16,0.8351870576339737
+"PCA (concatenated), shift-adjusted proteomics",16,0.8174924165824065
+Per-layer SVD,16,0.8185035389282103
+PCA (transcriptomics only),16,0.8190091001011123
+PCA (proteomics only),16,0.7740141557128413
+PCA (metabolomics only),16,0.672396359959555
+"PCA (proteomics only), shift-adjusted",16,0.7477249747219414
+PCA (transcriptomics + metabolomics),16,0.8746208291203235
+Elastic net (early concatenation),16,0.8862487360970677
+Clinical covariates only,16,0.5333670374115268
+Clinical + PCA (shift-adjusted),16,0.8220424671385238
+"PoE-VAE (unanchored, tuned)",16,0.750252780586451
+"PoE-VAE (SNF-anchored, lambda = 1)",16,0.7563195146612741
+PCA (concatenated),17,0.8437815975733065
+"PCA (concatenated), shift-adjusted proteomics",17,0.8422649140546006
+Per-layer SVD,17,0.8265925176946409
+PCA (transcriptomics only),17,0.833670374115268
+PCA (proteomics only),17,0.7987866531850355
+PCA (metabolomics only),17,0.6900910010111224
+"PCA (proteomics only), shift-adjusted",17,0.8038422649140545
+PCA (transcriptomics + metabolomics),17,0.8852376137512639
+Elastic net (early concatenation),17,0.9135490394337715
+Clinical covariates only,17,0.5647118301314459
+Clinical + PCA (shift-adjusted),17,0.8321536905965622
+"PoE-VAE (unanchored, tuned)",17,0.7366026289180991
+"PoE-VAE (SNF-anchored, lambda = 1)",17,0.7275025278058646
+PCA (concatenated),18,0.8377148634984833
+"PCA (concatenated), shift-adjusted proteomics",18,0.8220424671385238
+Per-layer SVD,18,0.8377148634984833
+PCA (transcriptomics only),18,0.8316481294236603
+PCA (proteomics only),18,0.6890798786653185
+PCA (metabolomics only),18,0.7295247724974722
+"PCA (proteomics only), shift-adjusted",18,0.7583417593528817
+PCA (transcriptomics + metabolomics),18,0.9049544994944388
+Elastic net (early concatenation),18,0.8983822042467138
+Clinical covariates only,18,0.5293225480283115
+Clinical + PCA (shift-adjusted),18,0.8225480283114256
+"PoE-VAE (unanchored, tuned)",18,0.795753286147624
+"PoE-VAE (SNF-anchored, lambda = 1)",18,0.7254802831142568
+PCA (concatenated),19,0.8468149646107179
+"PCA (concatenated), shift-adjusted proteomics",19,0.8564206268958544
+Per-layer SVD,19,0.8336703741152679
+PCA (transcriptomics only),19,0.813953488372093
+PCA (proteomics only),19,0.8129423660262892
+PCA (metabolomics only),19,0.7209302325581396
+"PCA (proteomics only), shift-adjusted",19,0.8053589484327603
+PCA (transcriptomics + metabolomics),19,0.840242669362993
+Elastic net (early concatenation),19,0.9186046511627907
+Clinical covariates only,19,0.5520728008088979
+Clinical + PCA (shift-adjusted),19,0.8528816986855409
+"PoE-VAE (unanchored, tuned)",19,0.8503538928210314
+"PoE-VAE (SNF-anchored, lambda = 1)",19,0.7800808897876643

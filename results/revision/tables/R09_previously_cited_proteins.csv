@@ -1,0 +1,4 @@
+protein,measured,relation,beta_METS,q_METS
+PLA2G4A,True,upstream enzyme of the eicosanoid cascade (releases arachidonic acid); not inhibited by aspirin,0.2711008100505512,0.2782373780598142
+F2R,True,"thrombin receptor PAR-1; direct antagonist is vorapaxar, not aspirin",-0.0462460411166903,0.7963331424791998
+GP6,True,collagen receptor GPVI; investigational direct inhibitors (e.g. glenzocimab); not an aspirin target,0.0109710364298305,0.9660285213108448

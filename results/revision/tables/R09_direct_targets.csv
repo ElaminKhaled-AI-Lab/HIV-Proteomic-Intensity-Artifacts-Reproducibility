@@ -1,0 +1,8 @@
+drug,chembl_id,chembl_mechanism,direct_target,target_on_olink_panel,beta_METS,q_METS
+aspirin,CHEMBL25,Cyclooxygenase inhibitor (irreversible acetylation),PTGS1,False,,
+aspirin,CHEMBL25,Cyclooxygenase inhibitor (irreversible acetylation),PTGS2,False,,
+vorapaxar,CHEMBL493982,Proteinase-activated receptor 1 antagonist,F2R,True,-0.0462460411166903,0.7963331424791998
+heparin,CHEMBL1201657,Antithrombin-III activator,SERPINC1,True,0.0094062049577507,0.9311268155351544
+pentoxifylline,CHEMBL628,"3',5'-cyclic phosphodiesterase inhibitor; adenosine A2 receptor antagonist",PDE (non-selective),False,,
+pentoxifylline,CHEMBL628,"3',5'-cyclic phosphodiesterase inhibitor; adenosine A2 receptor antagonist",ADORA2A,False,,
+pentoxifylline,CHEMBL628,"3',5'-cyclic phosphodiesterase inhibitor; adenosine A2 receptor antagonist",ADORA2B,False,,

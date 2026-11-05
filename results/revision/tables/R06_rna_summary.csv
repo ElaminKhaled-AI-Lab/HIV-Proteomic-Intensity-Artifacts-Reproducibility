@@ -1,0 +1,5 @@
+comparison,n_high,n_low,genes,n_FDR05,pi0,median_residual_sd,min_detectable_log2FC_80pct_bonferroni
+primary_partition,48,41,3000,93,0.824666666666667,0.588373126641031,0.680490070231394
+METS,46,43,3000,183,0.831333333333333,0.579672177733382,0.668534517292449
+"primary_partition (DESeq2, all genes)",,,19884,343,0.767752967209817,,
+"METS (DESeq2, all genes)",,,19884,1815,0.699255682961175,,

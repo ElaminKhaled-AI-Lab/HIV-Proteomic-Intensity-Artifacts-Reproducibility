@@ -1,0 +1,31 @@
+{
+  "n":89,
+  "n_assays":2923,
+  "plate_n":{
+    "2":45,
+    "1":44
+  },
+  "PC1_var":0.1373318537,
+  "rho_PC1_shift":0.8407254032,
+  "frac_proteins_pos_with_shift":0.9466301745,
+  "median_rho_protein_shift":0.2554403109,
+  "block_concordance_mean_r":0.7119100745,
+  "block_concordance_min_r":0.4544620692,
+  "n_plate_sig_q05":0,
+  "platelet_markers_used":[
+    "PPBP",
+    "PF4",
+    "SELP",
+    "GP6",
+    "TREML1",
+    "CLEC1B",
+    "GP1BA",
+    "PECAM1",
+    "MPIG6B",
+    "GP5"
+  ],
+  "rho_platelet_shift":0.7130009917,
+  "rho_intracellular_shift":0.8522593304,
+  "rho_secreted_shift":0.8574857741,
+  "kruskal_location_p":1.411955247e-25
+}

@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite the associated manuscript."
-title: "Proteomic Intensity Artifacts in HIV Multi-Omics Integration"
+title: "Proteomic Intensity Artifacts in HIV Multi-Omics Integration: code and data (v2.0)"
 authors:
   - family-names: Elamin
     given-names: Khaled M.
@@ -8,10 +8,10 @@ authors:
     given-names: Sara Mustafa Idris
   - family-names: Adam
     given-names: Ishag
-version: 1.0.0
-date-released: 2026-08-28
+version: 2.0.0
+date-released: 2026-11-02
 license: MIT
-repository-code: "https://github.com/<user>/<repo>"
+repository-code: "https://github.com/ElaminKhaled-AI-Lab/HIV-Proteomic-Intensity-Artifacts-Reproducibility"
 preferred-citation:
   type: article
   title: "Proteomic Intensity Artifacts in HIV Multi-Omics Integration: Deep Learning Benchmarking and Corrected Metabolic-Risk Endotyping"

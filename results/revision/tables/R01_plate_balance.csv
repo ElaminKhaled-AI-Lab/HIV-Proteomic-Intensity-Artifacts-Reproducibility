@@ -1,0 +1,8 @@
+variable,test,p,detail
+METS,chi-square,0.918366582707002,"{0: {1: 22, 2: 21}, 1: {1: 22, 2: 24}}"
+AGE,Mann-Whitney,0.6722231835824456,medians 52.0 vs 52.0
+BMI,Mann-Whitney,0.4355622542393335,medians 24.2 vs 24.6
+CD4,Mann-Whitney,0.6311317770082421,medians 669.5 vs 669.0
+CD8,Mann-Whitney,0.2276358544713427,medians 830.0 vs 740.0
+GENDER,chi-square,0.7088637168379881,"{'Female': {1: 6, 2: 4}, 'Male': {1: 38, 2: 41}}"
+X3rd_Drug,chi-square,0.953104829691895,"{'INSTI': {1: 14, 2: 13}, 'NNRTI': {1: 19, 2: 18}, 'PI': {1: 11, 2: 12}}"

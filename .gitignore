@@ -11,6 +11,13 @@ data/metadata/
 data/interim/
 data/processed/
 results/figures_matlab/
+results/revision/figures_matlab/
+results/revision/logs/
+results/revision/old_n88/
+results/revision/tables/R02_parts/
+*.docx
+*.zip
+*.sra
 *.fig
 *.tiff
 

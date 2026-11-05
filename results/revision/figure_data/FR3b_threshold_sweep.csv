@@ -1,0 +1,281 @@
+diagnostic,threshold,scenario,rate
+global_shift_p,0.01,bio_global|0.2,0.97
+global_shift_p,0.01,bio_global|0.5,1.0
+global_shift_p,0.01,bio_global|0.9,1.0
+global_shift_p,0.01,bio_multilayer|None,0.03
+global_shift_p,0.01,null|None,1.0
+global_shift_p,0.01,"technical|(1, 0.0)",0.995
+global_shift_p,0.01,"technical|(2, 0.0)",1.0
+global_shift_p,0.01,"technical|(3, 0.0)",1.0
+global_shift_p,0.01,"technical+bio|(1, 0.0)",0.01
+global_shift_p,0.01,"technical+bio|(1, 0.3)",0.435
+global_shift_p,0.01,"technical+bio|(2, 0.0)",0.975
+global_shift_p,0.01,"technical+bio|(2, 0.3)",0.985
+global_shift_p,0.01,"technical+bio|(3, 0.0)",1.0
+global_shift_p,0.01,"technical+bio|(3, 0.3)",1.0
+global_shift_p,0.001,bio_global|0.2,0.905
+global_shift_p,0.001,bio_global|0.5,1.0
+global_shift_p,0.001,bio_global|0.9,1.0
+global_shift_p,0.001,bio_multilayer|None,0.01
+global_shift_p,0.001,null|None,1.0
+global_shift_p,0.001,"technical|(1, 0.0)",0.98
+global_shift_p,0.001,"technical|(2, 0.0)",1.0
+global_shift_p,0.001,"technical|(3, 0.0)",1.0
+global_shift_p,0.001,"technical+bio|(1, 0.0)",0.0
+global_shift_p,0.001,"technical+bio|(1, 0.3)",0.17
+global_shift_p,0.001,"technical+bio|(2, 0.0)",0.975
+global_shift_p,0.001,"technical+bio|(2, 0.3)",0.98
+global_shift_p,0.001,"technical+bio|(3, 0.0)",1.0
+global_shift_p,0.001,"technical+bio|(3, 0.3)",1.0
+global_shift_p,0.0001,bio_global|0.2,0.78
+global_shift_p,0.0001,bio_global|0.5,1.0
+global_shift_p,0.0001,bio_global|0.9,1.0
+global_shift_p,0.0001,bio_multilayer|None,0.0
+global_shift_p,0.0001,null|None,1.0
+global_shift_p,0.0001,"technical|(1, 0.0)",0.97
+global_shift_p,0.0001,"technical|(2, 0.0)",1.0
+global_shift_p,0.0001,"technical|(3, 0.0)",1.0
+global_shift_p,0.0001,"technical+bio|(1, 0.0)",0.0
+global_shift_p,0.0001,"technical+bio|(1, 0.3)",0.055
+global_shift_p,0.0001,"technical+bio|(2, 0.0)",0.975
+global_shift_p,0.0001,"technical+bio|(2, 0.3)",0.97
+global_shift_p,0.0001,"technical+bio|(3, 0.0)",1.0
+global_shift_p,0.0001,"technical+bio|(3, 0.3)",1.0
+global_shift_p,1e-06,bio_global|0.2,0.51
+global_shift_p,1e-06,bio_global|0.5,1.0
+global_shift_p,1e-06,bio_global|0.9,1.0
+global_shift_p,1e-06,bio_multilayer|None,0.0
+global_shift_p,1e-06,null|None,1.0
+global_shift_p,1e-06,"technical|(1, 0.0)",0.915
+global_shift_p,1e-06,"technical|(2, 0.0)",1.0
+global_shift_p,1e-06,"technical|(3, 0.0)",1.0
+global_shift_p,1e-06,"technical+bio|(1, 0.0)",0.0
+global_shift_p,1e-06,"technical+bio|(1, 0.3)",0.01
+global_shift_p,1e-06,"technical+bio|(2, 0.0)",0.975
+global_shift_p,1e-06,"technical+bio|(2, 0.3)",0.965
+global_shift_p,1e-06,"technical+bio|(3, 0.0)",1.0
+global_shift_p,1e-06,"technical+bio|(3, 0.3)",1.0
+imbalance,0.6,bio_global|0.2,0.995
+imbalance,0.6,bio_global|0.5,1.0
+imbalance,0.6,bio_global|0.9,1.0
+imbalance,0.6,bio_multilayer|None,0.015
+imbalance,0.6,null|None,1.0
+imbalance,0.6,"technical|(1, 0.0)",0.995
+imbalance,0.6,"technical|(2, 0.0)",1.0
+imbalance,0.6,"technical|(3, 0.0)",1.0
+imbalance,0.6,"technical+bio|(1, 0.0)",0.01
+imbalance,0.6,"technical+bio|(1, 0.3)",0.41
+imbalance,0.6,"technical+bio|(2, 0.0)",0.98
+imbalance,0.6,"technical+bio|(2, 0.3)",0.99
+imbalance,0.6,"technical+bio|(3, 0.0)",1.0
+imbalance,0.6,"technical+bio|(3, 0.3)",1.0
+imbalance,0.7,bio_global|0.2,0.965
+imbalance,0.7,bio_global|0.5,1.0
+imbalance,0.7,bio_global|0.9,1.0
+imbalance,0.7,bio_multilayer|None,0.005
+imbalance,0.7,null|None,0.885
+imbalance,0.7,"technical|(1, 0.0)",0.975
+imbalance,0.7,"technical|(2, 0.0)",1.0
+imbalance,0.7,"technical|(3, 0.0)",1.0
+imbalance,0.7,"technical+bio|(1, 0.0)",0.0
+imbalance,0.7,"technical+bio|(1, 0.3)",0.105
+imbalance,0.7,"technical+bio|(2, 0.0)",0.975
+imbalance,0.7,"technical+bio|(2, 0.3)",0.985
+imbalance,0.7,"technical+bio|(3, 0.0)",1.0
+imbalance,0.7,"technical+bio|(3, 0.3)",1.0
+imbalance,0.8,bio_global|0.2,0.78
+imbalance,0.8,bio_global|0.5,1.0
+imbalance,0.8,bio_global|0.9,1.0
+imbalance,0.8,bio_multilayer|None,0.0
+imbalance,0.8,null|None,0.325
+imbalance,0.8,"technical|(1, 0.0)",0.955
+imbalance,0.8,"technical|(2, 0.0)",1.0
+imbalance,0.8,"technical|(3, 0.0)",1.0
+imbalance,0.8,"technical+bio|(1, 0.0)",0.0
+imbalance,0.8,"technical+bio|(1, 0.3)",0.005
+imbalance,0.8,"technical+bio|(2, 0.0)",0.975
+imbalance,0.8,"technical+bio|(2, 0.3)",0.975
+imbalance,0.8,"technical+bio|(3, 0.0)",1.0
+imbalance,0.8,"technical+bio|(3, 0.3)",1.0
+imbalance,0.9,bio_global|0.2,0.57
+imbalance,0.9,bio_global|0.5,1.0
+imbalance,0.9,bio_global|0.9,1.0
+imbalance,0.9,bio_multilayer|None,0.0
+imbalance,0.9,null|None,0.015
+imbalance,0.9,"technical|(1, 0.0)",0.76
+imbalance,0.9,"technical|(2, 0.0)",1.0
+imbalance,0.9,"technical|(3, 0.0)",1.0
+imbalance,0.9,"technical+bio|(1, 0.0)",0.0
+imbalance,0.9,"technical+bio|(1, 0.3)",0.0
+imbalance,0.9,"technical+bio|(2, 0.0)",0.97
+imbalance,0.9,"technical+bio|(2, 0.3)",0.94
+imbalance,0.9,"technical+bio|(3, 0.0)",1.0
+imbalance,0.9,"technical+bio|(3, 0.3)",1.0
+imbalance,0.95,bio_global|0.2,0.535
+imbalance,0.95,bio_global|0.5,0.985
+imbalance,0.95,bio_global|0.9,1.0
+imbalance,0.95,bio_multilayer|None,0.0
+imbalance,0.95,null|None,0.0
+imbalance,0.95,"technical|(1, 0.0)",0.465
+imbalance,0.95,"technical|(2, 0.0)",1.0
+imbalance,0.95,"technical|(3, 0.0)",0.99
+imbalance,0.95,"technical+bio|(1, 0.0)",0.0
+imbalance,0.95,"technical+bio|(1, 0.3)",0.0
+imbalance,0.95,"technical+bio|(2, 0.0)",0.925
+imbalance,0.95,"technical+bio|(2, 0.3)",0.685
+imbalance,0.95,"technical+bio|(3, 0.0)",0.975
+imbalance,0.95,"technical+bio|(3, 0.3)",0.885
+imbalance,0.99,bio_global|0.2,0.2
+imbalance,0.99,bio_global|0.5,0.555
+imbalance,0.99,bio_global|0.9,0.965
+imbalance,0.99,bio_multilayer|None,0.0
+imbalance,0.99,null|None,0.0
+imbalance,0.99,"technical|(1, 0.0)",0.0
+imbalance,0.99,"technical|(2, 0.0)",0.02
+imbalance,0.99,"technical|(3, 0.0)",0.0
+imbalance,0.99,"technical+bio|(1, 0.0)",0.0
+imbalance,0.99,"technical+bio|(1, 0.3)",0.0
+imbalance,0.99,"technical+bio|(2, 0.0)",0.035
+imbalance,0.99,"technical+bio|(2, 0.3)",0.005
+imbalance,0.99,"technical+bio|(3, 0.0)",0.005
+imbalance,0.99,"technical+bio|(3, 0.3)",0.0
+survival_ARI_below,0.05,bio_global|0.2,0.23
+survival_ARI_below,0.05,bio_global|0.5,0.0
+survival_ARI_below,0.05,bio_global|0.9,0.0
+survival_ARI_below,0.05,bio_multilayer|None,0.0
+survival_ARI_below,0.05,null|None,0.87
+survival_ARI_below,0.05,"technical|(1, 0.0)",0.84
+survival_ARI_below,0.05,"technical|(2, 0.0)",0.96
+survival_ARI_below,0.05,"technical|(3, 0.0)",0.955
+survival_ARI_below,0.05,"technical+bio|(1, 0.0)",0.005
+survival_ARI_below,0.05,"technical+bio|(1, 0.3)",0.0
+survival_ARI_below,0.05,"technical+bio|(2, 0.0)",0.74
+survival_ARI_below,0.05,"technical+bio|(2, 0.3)",0.155
+survival_ARI_below,0.05,"technical+bio|(3, 0.0)",0.89
+survival_ARI_below,0.05,"technical+bio|(3, 0.3)",0.235
+survival_ARI_below,0.1,bio_global|0.2,0.3
+survival_ARI_below,0.1,bio_global|0.5,0.0
+survival_ARI_below,0.1,bio_global|0.9,0.0
+survival_ARI_below,0.1,bio_multilayer|None,0.0
+survival_ARI_below,0.1,null|None,0.96
+survival_ARI_below,0.1,"technical|(1, 0.0)",0.93
+survival_ARI_below,0.1,"technical|(2, 0.0)",0.995
+survival_ARI_below,0.1,"technical|(3, 0.0)",0.99
+survival_ARI_below,0.1,"technical+bio|(1, 0.0)",0.005
+survival_ARI_below,0.1,"technical+bio|(1, 0.3)",0.0
+survival_ARI_below,0.1,"technical+bio|(2, 0.0)",0.845
+survival_ARI_below,0.1,"technical+bio|(2, 0.3)",0.29
+survival_ARI_below,0.1,"technical+bio|(3, 0.0)",0.975
+survival_ARI_below,0.1,"technical+bio|(3, 0.3)",0.51
+survival_ARI_below,0.2,bio_global|0.2,0.365
+survival_ARI_below,0.2,bio_global|0.5,0.0
+survival_ARI_below,0.2,bio_global|0.9,0.0
+survival_ARI_below,0.2,bio_multilayer|None,0.0
+survival_ARI_below,0.2,null|None,1.0
+survival_ARI_below,0.2,"technical|(1, 0.0)",0.985
+survival_ARI_below,0.2,"technical|(2, 0.0)",1.0
+survival_ARI_below,0.2,"technical|(3, 0.0)",1.0
+survival_ARI_below,0.2,"technical+bio|(1, 0.0)",0.005
+survival_ARI_below,0.2,"technical+bio|(1, 0.3)",0.0
+survival_ARI_below,0.2,"technical+bio|(2, 0.0)",0.925
+survival_ARI_below,0.2,"technical+bio|(2, 0.3)",0.51
+survival_ARI_below,0.2,"technical+bio|(3, 0.0)",0.995
+survival_ARI_below,0.2,"technical+bio|(3, 0.3)",0.825
+survival_ARI_below,0.3,bio_global|0.2,0.405
+survival_ARI_below,0.3,bio_global|0.5,0.0
+survival_ARI_below,0.3,bio_global|0.9,0.0
+survival_ARI_below,0.3,bio_multilayer|None,0.0
+survival_ARI_below,0.3,null|None,1.0
+survival_ARI_below,0.3,"technical|(1, 0.0)",0.995
+survival_ARI_below,0.3,"technical|(2, 0.0)",1.0
+survival_ARI_below,0.3,"technical|(3, 0.0)",1.0
+survival_ARI_below,0.3,"technical+bio|(1, 0.0)",0.005
+survival_ARI_below,0.3,"technical+bio|(1, 0.3)",0.005
+survival_ARI_below,0.3,"technical+bio|(2, 0.0)",0.955
+survival_ARI_below,0.3,"technical+bio|(2, 0.3)",0.77
+survival_ARI_below,0.3,"technical+bio|(3, 0.0)",1.0
+survival_ARI_below,0.3,"technical+bio|(3, 0.3)",0.965
+survival_ARI_below,0.5,bio_global|0.2,0.425
+survival_ARI_below,0.5,bio_global|0.5,0.0
+survival_ARI_below,0.5,bio_global|0.9,0.0
+survival_ARI_below,0.5,bio_multilayer|None,0.0
+survival_ARI_below,0.5,null|None,1.0
+survival_ARI_below,0.5,"technical|(1, 0.0)",1.0
+survival_ARI_below,0.5,"technical|(2, 0.0)",1.0
+survival_ARI_below,0.5,"technical|(3, 0.0)",1.0
+survival_ARI_below,0.5,"technical+bio|(1, 0.0)",0.005
+survival_ARI_below,0.5,"technical+bio|(1, 0.3)",0.005
+survival_ARI_below,0.5,"technical+bio|(2, 0.0)",0.975
+survival_ARI_below,0.5,"technical+bio|(2, 0.3)",0.925
+survival_ARI_below,0.5,"technical+bio|(3, 0.0)",1.0
+survival_ARI_below,0.5,"technical+bio|(3, 0.3)",1.0
+dominance_ARI_above,0.5,bio_global|0.2,0.385
+dominance_ARI_above,0.5,bio_global|0.5,0.31
+dominance_ARI_above,0.5,bio_global|0.9,1.0
+dominance_ARI_above,0.5,bio_multilayer|None,0.01
+dominance_ARI_above,0.5,null|None,0.935
+dominance_ARI_above,0.5,"technical|(1, 0.0)",0.945
+dominance_ARI_above,0.5,"technical|(2, 0.0)",0.98
+dominance_ARI_above,0.5,"technical|(3, 0.0)",0.98
+dominance_ARI_above,0.5,"technical+bio|(1, 0.0)",0.0
+dominance_ARI_above,0.5,"technical+bio|(1, 0.3)",0.025
+dominance_ARI_above,0.5,"technical+bio|(2, 0.0)",0.9
+dominance_ARI_above,0.5,"technical+bio|(2, 0.3)",0.82
+dominance_ARI_above,0.5,"technical+bio|(3, 0.0)",0.99
+dominance_ARI_above,0.5,"technical+bio|(3, 0.3)",0.99
+dominance_ARI_above,0.6,bio_global|0.2,0.31
+dominance_ARI_above,0.6,bio_global|0.5,0.27
+dominance_ARI_above,0.6,bio_global|0.9,1.0
+dominance_ARI_above,0.6,bio_multilayer|None,0.01
+dominance_ARI_above,0.6,null|None,0.86
+dominance_ARI_above,0.6,"technical|(1, 0.0)",0.86
+dominance_ARI_above,0.6,"technical|(2, 0.0)",0.945
+dominance_ARI_above,0.6,"technical|(3, 0.0)",0.97
+dominance_ARI_above,0.6,"technical+bio|(1, 0.0)",0.0
+dominance_ARI_above,0.6,"technical+bio|(1, 0.3)",0.02
+dominance_ARI_above,0.6,"technical+bio|(2, 0.0)",0.865
+dominance_ARI_above,0.6,"technical+bio|(2, 0.3)",0.665
+dominance_ARI_above,0.6,"technical+bio|(3, 0.0)",0.985
+dominance_ARI_above,0.6,"technical+bio|(3, 0.3)",0.96
+dominance_ARI_above,0.7,bio_global|0.2,0.255
+dominance_ARI_above,0.7,bio_global|0.5,0.25
+dominance_ARI_above,0.7,bio_global|0.9,0.995
+dominance_ARI_above,0.7,bio_multilayer|None,0.01
+dominance_ARI_above,0.7,null|None,0.79
+dominance_ARI_above,0.7,"technical|(1, 0.0)",0.78
+dominance_ARI_above,0.7,"technical|(2, 0.0)",0.905
+dominance_ARI_above,0.7,"technical|(3, 0.0)",0.97
+dominance_ARI_above,0.7,"technical+bio|(1, 0.0)",0.0
+dominance_ARI_above,0.7,"technical+bio|(1, 0.3)",0.02
+dominance_ARI_above,0.7,"technical+bio|(2, 0.0)",0.82
+dominance_ARI_above,0.7,"technical+bio|(2, 0.3)",0.555
+dominance_ARI_above,0.7,"technical+bio|(3, 0.0)",0.955
+dominance_ARI_above,0.7,"technical+bio|(3, 0.3)",0.905
+dominance_ARI_above,0.8,bio_global|0.2,0.195
+dominance_ARI_above,0.8,bio_global|0.5,0.205
+dominance_ARI_above,0.8,bio_global|0.9,0.995
+dominance_ARI_above,0.8,bio_multilayer|None,0.01
+dominance_ARI_above,0.8,null|None,0.54
+dominance_ARI_above,0.8,"technical|(1, 0.0)",0.495
+dominance_ARI_above,0.8,"technical|(2, 0.0)",0.795
+dominance_ARI_above,0.8,"technical|(3, 0.0)",0.88
+dominance_ARI_above,0.8,"technical+bio|(1, 0.0)",0.0
+dominance_ARI_above,0.8,"technical+bio|(1, 0.3)",0.015
+dominance_ARI_above,0.8,"technical+bio|(2, 0.0)",0.64
+dominance_ARI_above,0.8,"technical+bio|(2, 0.3)",0.33
+dominance_ARI_above,0.8,"technical+bio|(3, 0.0)",0.785
+dominance_ARI_above,0.8,"technical+bio|(3, 0.3)",0.7
+dominance_ARI_above,0.9,bio_global|0.2,0.09
+dominance_ARI_above,0.9,bio_global|0.5,0.205
+dominance_ARI_above,0.9,bio_global|0.9,0.98
+dominance_ARI_above,0.9,bio_multilayer|None,0.01
+dominance_ARI_above,0.9,null|None,0.325
+dominance_ARI_above,0.9,"technical|(1, 0.0)",0.285
+dominance_ARI_above,0.9,"technical|(2, 0.0)",0.52
+dominance_ARI_above,0.9,"technical|(3, 0.0)",0.725
+dominance_ARI_above,0.9,"technical+bio|(1, 0.0)",0.0
+dominance_ARI_above,0.9,"technical+bio|(1, 0.3)",0.01
+dominance_ARI_above,0.9,"technical+bio|(2, 0.0)",0.4
+dominance_ARI_above,0.9,"technical+bio|(2, 0.3)",0.15
+dominance_ARI_above,0.9,"technical+bio|(3, 0.0)",0.57
+dominance_ARI_above,0.9,"technical+bio|(3, 0.3)",0.39

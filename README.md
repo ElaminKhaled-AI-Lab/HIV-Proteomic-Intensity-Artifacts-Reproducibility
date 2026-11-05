@@ -1,13 +1,53 @@
 # Proteomic Intensity Artifacts in HIV Multi-Omics Integration
 
-Code and per-figure source data for the manuscript:
+Code, analysis-ready matrices, and per-panel figure source data for the manuscript
 
 > **Proteomic Intensity Artifacts in HIV Multi-Omics Integration: Deep Learning Benchmarking and Corrected Metabolic-Risk Endotyping**
-> K. M. Elamin, S. M. I. Elbashir, I. Adam. Submitted to *Proteomes* (MDPI), 2026.
+> K. M. Elamin, S. M. I. Elbashir, I. Adam. *Proteomes* (MDPI), revised version, 2026.
 
-This repository contains the analysis pipeline, artifact-diagnostic framework, and figure-generation code needed to reproduce the study. Public source-data provenance is documented in `data/source_manifest.tsv`. The repository includes processed intermediate matrices, analysis scripts, and per-panel source data for reproducibility.
+## Release v2.0 (revision)
+
+All results of the revised manuscript are produced by `scripts/revision/`. One command regenerates every number, table, and figure source file from the public inputs:
+
+```bash
+conda env create -f environment.yml && conda activate hiv_integration
+bash scripts/preprocessing/R0_recover_rna_matrix_stream.sh   # only if the RNA matrix must be rebuilt from SRA
+bash scripts/revision/run_all.sh                             # R01-R10, fixed seeds (SEED = 20261030)
+```
+
+Then, in MATLAB (R2023b or later), draw every figure panel:
+
+```matlab
+cd matlab
+make_revision_figures('/path/to/this/repository')   % writes results/revision/figures_matlab/*.png|pdf|fig
+```
+
+| Script | Content | Manuscript |
+|---|---|---|
+| `common.py` | paths, seeds, data loaders (Olink matrix rebuilt from the vendor NPX export; replicate assays averaged), statistics helpers | all |
+| `vae.py` | product-of-experts VAE (native masking, optional SNF anchor) | 2.4 |
+| `R01_olink_shift_origin.py` | global intensity score vs plate, well, QC, LOD, panel blocks, subcellular location, platelet score, clinical variables | 3.4, Fig. 4, Table S3 |
+| `R02_nested_benchmark.py` | fully nested CV benchmark (inner-CV tuning, corrected repeated-CV t-test, whole-pipeline permutation); resumable with `--repeats a-b` and `--summarize_only` | 3.2, Fig. 2 |
+| `R03_learning_curve.py` | sample-size dependence of PCA and PoE-VAE | Fig. 2C |
+| `R04_diagnostic_simulation.py` | semi-synthetic simulation of the four layer-dominance checks, threshold sweeps, concordance | 3.5, Fig. 5 |
+| `R05_endotypes_normalization_clinical.py` | eight normalization arms, partitions, checks, cluster existence (SigClust-type, gap), stability, split-half replication, continuous axis, clinical table, adjusted models | 3.3, 3.6, 3.7, Figs. 3, 6, 7, Tables S4, S5 |
+| `R06_rna_differential_power.R` | limma (3,000 genes) and DESeq2 (all genes), proportion of true nulls, minimal detectable fold change | 3.8 |
+| `R07_enrichment_olink_background.R` | ORA and fgsea with the Olink assay universe as background (MSigDB v7.5.1) | 3.8, Fig. 8, Table S6 |
+| `R08_missing_modality_nested.py` | nested missing-modality experiment | 3.9, Fig. 9 |
+| `R09_druggability_direct_targets.py` | ChEMBL direct targets vs METS associations | Section S5, Table S8 |
+| `R10_collect_numbers.py` | writes `results/revision/manuscript_numbers.json`, the single source of every number in the text | all |
+
+Outputs: `results/revision/tables/` (all tables), `results/revision/figure_data/` (one CSV per figure panel), `results/revision/manuscript_numbers.json`. Table S7 of the Supplementary Information maps every manuscript result to its output file.
+
+Software: Python 3.11+ (PyTorch, scikit-learn, statsmodels, pandas, NumPy, SciPy); R 4.3+ (tximport, DESeq2, limma, msigdbr 7.5.1, fgsea); fastp 1.4.0; Salmon 2.8.0 (decoy-aware GENCODE v50 index). Versions are logged at run time.
+
+### Corrections relative to the submitted version (v1.0)
+
+The v1.0 scripts (listed below) are kept for transparency. In v1.0, representations were fitted before cross-validation, the six Olink assays measured in every panel were summed instead of averaged, enrichment used a genome background, and several reported counts came from superseded runs. These issues are corrected in v2.0; the response to reviewers lists every change.
 
 ---
+
+## Submitted version (v1.0) scripts
 
 ## Overview
 
